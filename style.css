@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    border: 2px solid black;
+
+    height: 60vh;
+    width: 80vw;
+    margin: 20vh auto;
+    display:flex;
+    flex-direction:column;
+    
+}
+
+.times{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+}
+
+.main-info{
+    width: 100%;
+    background-color: black;
+    height: 20%;
+    display: flex;
+    flex-direction:row;
+}
+
+.box{
+   width: 100%;
+   text-align: center;
+   padding-top: 20px;
+   font-size:3rem;
+   letter-spacing: 0.5rem;
+   font-family: 'Roboto Mono', monospace;
+   color: white;
+
+}
+
+
+.time{
+    background-color: black;
+   /*  border: 1px solid blue; */
+    width: 90%;
+    height: 100%;
+    margin-bottom: 100px;
+}
+
+.colon{
+    width: 15%;
+    /* border: 1px solid white; */
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-size:4rem;
+    
+}
+
+.colon-mark{
+    font-size:10rem;
+    color:white;
+    position:relative;
+    top:1vh;
+    color:red;
+}
+
+.text{
+    
+    color:red;
+    font-size:6rem;
+     margin-top: 2rem;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.heading-2{
+    text-align: center;
+    font-size:2rem;
+    margin-bottom:-30px;
+    color: white;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
